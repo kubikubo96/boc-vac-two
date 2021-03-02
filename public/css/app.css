@@ -2,7 +2,7 @@
 
 /*start wapper*/
 .wrapper {
-    background-color: #F4F4F4;
+    background-color: #efebe9;
 }
 
 .wrapper a {
@@ -24,17 +24,17 @@
 
 /*start info-top*/
 
-.info-top {
-    position: fixed;
-    width: 100%;
-    height: 30px;
-    line-height: 30px;
-    color: white;
-    background-color: #0367a4;
-    font-size: 14px;
-    font-weight: 600;
-    z-index: 10;
-}
+/*.info-top {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    height: 30px;*/
+/*    line-height: 30px;*/
+/*    color: white;*/
+/*    background-color: #d32f2f;*/
+/*    font-size: 14px;*/
+/*    font-weight: 600;*/
+/*    z-index: 10;*/
+/*}*/
 
 .info-top .info-right {
     text-align: right;
@@ -65,15 +65,15 @@
 .header {
     width: 100%;
     height: 70px;
-    background-color: #0489B1;
+    background-color: #3949ab;
     position: fixed;
     z-index: 10;
     transition: top 0.3s;
-    top: 30px;
+    /*top: 30px;*/
 }
 
 .header .bg-primary {
-    background-color: #0489B1 !important;
+    background-color: #3949ab !important;
 }
 
 .header img {
@@ -167,7 +167,7 @@
 .content-1 {
     color: black;
     background-color: #F7F7F9;
-    border: 1px solid #FE642E;
+    border: 1px solid #3949ab;
     padding: 0;
 }
 
@@ -224,7 +224,7 @@
 .content-5 {
     margin-top: 60px;
     padding-top: 50px;
-    background-color: #0E6073;
+    background-color: #5c6bc0;
     color: white;
 }
 
@@ -242,7 +242,7 @@
 
 .phone-fixed h1 {
     float: right;
-    color: #0489B1;
+    color: #3949ab;
     font-weight: 900;
     font-size: 25px;
     margin: 0;
@@ -290,7 +290,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #0489B1;
+    background-color: #3949ab;
     color: white;
     cursor: pointer;
     padding: 15px;

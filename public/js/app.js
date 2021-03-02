@@ -7,25 +7,43 @@ window.onscroll = function () {
 };
 
 function scrollTopFunction() {
-    if (document.documentElement.scrollTop > 100) {
-        goToTop.style.display = "block";
-    } else {
-        goToTop.style.display = "none";
-    }
-
-    if(document.documentElement.scrollTop > 100) {
-        document.getElementById("header").style.top = "-70px";
-    }
-
-    if(document.documentElement.scrollTop > 300) {
-        document.getElementById("header").style.top = "30px";
-    }
-
-    if(document.documentElement.scrollTop <= 100) {
-        document.getElementById("header").style.top = "30px";
-        document.getElementById("info-top").style.top = "0px";
-
-    }
+    // if (document.documentElement.scrollTop > 100) {
+    //     goToTop.style.display = "block";
+    // } else {
+    //     goToTop.style.display = "none";
+    // }
+    //
+    // if(document.documentElement.scrollTop > 100) {
+    //     document.getElementById("header").style.top = "-70px";
+    // }
+    //
+    // if(document.documentElement.scrollTop > 300) {
+    //     document.getElementById("header").style.top = "30px";
+    // }
+    //
+    // if(document.documentElement.scrollTop <= 100) {
+    //     document.getElementById("header").style.top = "30px";
+    //     document.getElementById("info-top").style.top = "0px";
+    //
+    // }    // if (document.documentElement.scrollTop > 100) {
+    //     goToTop.style.display = "block";
+    // } else {
+    //     goToTop.style.display = "none";
+    // }
+    //
+    // if(document.documentElement.scrollTop > 100) {
+    //     document.getElementById("header").style.top = "-70px";
+    // }
+    //
+    // if(document.documentElement.scrollTop > 300) {
+    //     document.getElementById("header").style.top = "30px";
+    // }
+    //
+    // if(document.documentElement.scrollTop <= 100) {
+    //     document.getElementById("header").style.top = "30px";
+    //     document.getElementById("info-top").style.top = "0px";
+    //
+    // }
 }
 
 // Go to top

@@ -8,7 +8,7 @@
           chuyển nhà hà nội, chuyển nhà trọn gói, bốc xếp container, bốc hàng container,
           bốc xếp giá rẻ, dọn kho">
     <meta name="description" content="Bốc vác, Bốc xếp hàng hóa, Cửu vạn, Bốc dỡ container">
-    <meta name="author" content="BOCXEPHANOI247.COM">
+    <meta name="author" content="BOC XEP">
     <base href="{{asset('')}}" />
     <title>Bốc xếp hàng hóa, Cửu vạn, Bốc dỡ container</title>
 
@@ -27,35 +27,12 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="js/file.js"></script>
     <script type="text/javascript" src="js/jquery3.4.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-190610381-1">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-190610381-1');
-    </script>
-    <!-- Global site tag (gtag.js) - Google Ads: 411647905 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-411647905"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'AW-411647905');
-    </script>
-    <!-- Event snippet for Lượt nhấp vào đường liên kết ngoài conversion page -->
-    <script>
-        gtag('event', 'conversion', {'send_to': 'AW-411647905/ojsCCLHA7vgBEKH_pMQB'});
-    </script>
 </head>
 <body>
 
 <div class="wrapper">
 
-    @include('layouts.info-top')
+{{--    @include('layouts.info-top')--}}
 
     @include('layouts.header')
 
@@ -91,26 +68,6 @@
 
 <!-- Custom scripts for all pages-->
 <script src="admin/js/sb-admin-2.min.js"></script>
-<script type=”application/ld+json”>
-{
-  “@context”: “https://www.bocxephanoi247.com/”,
-
-  “@type”: “Bốc xếp hà nội”,
-
-  “name”: “Bốc xếp hà nội”,
-
-  “description”: “Bốc xếp hà nội, Bốc xếp giá rẻ, bốc dỡ hàng container”,
-
-  “address”: {
-
-    “@type”: “PostalAddress”,
-
-    “addressLocality”: Hà Nội, Việt Nam”,
-  },
-
-  “telephone”: “+84984416863”,
-}
-</script>
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/navbar.js"></script>
 </body>

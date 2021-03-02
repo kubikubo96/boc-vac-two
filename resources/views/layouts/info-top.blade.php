@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-5">
-                <b><i>BỐC XẾP HÀ NỘI TIẾN THẮNG <img src="images/icon-info-top.png" width="26px" height="26px"></i></b>
+                <b><i>BỐC XẾP HÀNG HÓA TẠI HÀ NỘI <img src="images/icon-info-top.png" width="26px" height="26px"></i></b>
             </div>
             <div class="col-2"></div>
             <div class="col-5 info-right">
