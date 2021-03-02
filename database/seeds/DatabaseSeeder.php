@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'name' => 'Tất Thanh',
+            'name' => 'admin',
             'username' => 'admin',
             'phone_number' => '0999999999',
             'other_phone_number' => '0999999999',
