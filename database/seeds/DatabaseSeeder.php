@@ -13,9 +13,9 @@ class DatabaseSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'Tất Thanh',
-            'username' => 'tatthanh',
-            'phone_number' => '0984416863',
-            'other_phone_number' => '0397600676',
+            'username' => 'admin',
+            'phone_number' => '0999999999',
+            'other_phone_number' => '0999999999',
             'email' => 'admin@admin.com',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
 
@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
         DB::table('posts')->insert([
             'title' => 'title',
             'content' => 'content',
+            'type' => 'type',
             'position' => 'title_page',
             'image' => 'image',
             'video' => 'video',
@@ -31,6 +32,7 @@ class DatabaseSeeder extends Seeder
         DB::table('posts')->insert([
             'title' => 'title',
             'content' => 'content',
+            'type' => 'type',
             'position' => 'logo_page',
             'image' => 'image',
             'video' => 'video',
@@ -38,6 +40,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'footer_page',
             'image' => 'image',
@@ -46,6 +49,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'content_one',
             'image' => 'image',
@@ -54,6 +58,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'content_two',
             'image' => 'image',
@@ -62,6 +67,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'content_three',
             'image' => 'image',
@@ -70,6 +76,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'content_four',
             'image' => 'image',
@@ -78,6 +85,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'post_left',
             'image' => 'image',
@@ -86,6 +94,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'post_center',
             'image' => 'image',
@@ -94,6 +103,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'post_right',
             'image' => 'image',
@@ -102,6 +112,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'post_right',
             'image' => 'image',
@@ -110,6 +121,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'main_service',
             'image' => 'image',
@@ -118,6 +130,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'moving_house',
             'image' => 'image',
@@ -126,6 +139,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('posts')->insert([
             'title' => 'title',
+            'type' => 'type',
             'content' => 'content',
             'position' => 'contact',
             'image' => 'image',
