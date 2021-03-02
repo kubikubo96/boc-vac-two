@@ -153,7 +153,7 @@
 <!-- Page level custom scripts -->
 <script src="admin/js/demo/chart-area-demo.js"></script>
 <script src="admin/js/demo/chart-pie-demo.js"></script>
-<script src="admin/js/ckeditor.js"></script>
+<script src="admin/js/ckeditor5.js"></script>
 @yield('script')
 </body>
 
