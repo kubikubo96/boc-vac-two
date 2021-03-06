@@ -20,6 +20,7 @@ Route::get('/news', 'PostController@news')->name('show.news');
 Route::get('/news/detail/{id}', 'PostController@details')->name('show.detail');
 Route::get('/main_service', 'PostController@mainService')->name('show.mainService');
 Route::get('/moving_house', 'PostController@movingHouse')->name('show.movingHouse');
+Route::get('/break_wall', 'PostController@breakWall')->name('show.breakWall');
 Route::get('/contact', 'PostController@contactPage')->name('show.contact');
 
 

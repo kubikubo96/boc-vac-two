@@ -46,6 +46,9 @@ if(window.location.pathname === '/main_service') {
 if(window.location.pathname === '/moving_house') {
     document.getElementById('menu4').style.color = '#e53935';
 }
-if(window.location.pathname === '/contact') {
+if(window.location.pathname === '/break_wall') {
     document.getElementById('menu5').style.color = '#e53935';
+}
+if(window.location.pathname === '/contact') {
+    document.getElementById('menu6').style.color = '#e53935';
 }

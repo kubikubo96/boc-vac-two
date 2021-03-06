@@ -132,4 +132,10 @@ class PostController extends Controller
         $post = DB::table('posts')->where('position', '=', 'contact')->first();
         return view('contact.index', ['post' => $post]);
     }
+
+    public function breakWall()
+    {
+        $post = DB::table('posts')->where('position', '=', 'break_wall')->first();
+        return view('break_wall.index', ['post' => $post]);
+    }
 }
