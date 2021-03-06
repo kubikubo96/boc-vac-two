@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab113a61-0c74-42f2-a764-33b33b3f1ed2" name="Default Changelist" comment="" />
+    <list default="true" id="ab113a61-0c74-42f2-a764-33b33b3f1ed2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/news/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,6 +164,7 @@
       <workItem from="1614669158711" duration="618000" />
       <workItem from="1614696768025" duration="68000" />
       <workItem from="1614711250725" duration="7838000" />
+      <workItem from="1615024612414" duration="792000" />
     </task>
     <servers />
   </component>
@@ -174,14 +181,15 @@
     </state>
     <state x="2002" y="349" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1615024613536" />
     <state x="636" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1614711250586" />
-    <state x="2012" y="241" width="627" height="568" key="find.popup" timestamp="1615024654305">
+    <state x="2012" y="241" width="627" height="568" key="find.popup" timestamp="1615025288655">
       <screen x="1366" y="0" width="1920" height="1050" />
     </state>
-    <state x="2012" y="241" width="627" height="568" key="find.popup/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1615024654305" />
+    <state x="2012" y="241" width="627" height="568" key="find.popup/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1615025288655" />
     <state x="646" y="241" width="627" height="568" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1614718957024" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1614715062180">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1989" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1615024959800">
+      <screen x="1366" y="0" width="1920" height="1050" />
     </state>
+    <state x="1989" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1615024959800" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1614715062180" />
   </component>
 </project>

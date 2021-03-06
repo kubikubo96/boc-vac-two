@@ -5,8 +5,8 @@
             <a href="{{route('show.view')}}"
                title="Bốc xếp hàng hóa hà nội" class="logo-header">
                 <img src="images/{{@$logo_page->image}}"
-                     alt="Bốc xếp hà nội tiến thắng.">
-                <span class="text-next-logo">{{@$post->domain_logo ?? "Bốc Xếp Hà Nội"}}</span>
+                     alt="{{@$text_logo_page->title}}">
+                <span class="text-next-logo">{{@$text_logo_page->title}}</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

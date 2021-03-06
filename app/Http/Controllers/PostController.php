@@ -18,7 +18,9 @@ class PostController extends Controller
         $logo_page = $posts->where('position', 'logo_page')->first();
         $footer_page = $posts->where('position', 'footer_page')->first();
         $content_four = $posts->where('position', 'content_four')->first();
+        $text_logo_page = $posts->where('position', 'text_logo_page')->first();
         view()->share('logo_page', $logo_page);
+        view()->share('text_logo_page', $text_logo_page);
         view()->share('footer_page', $footer_page);
         view()->share('content_four', $content_four);
         view()->share('user', $user);

@@ -4,6 +4,7 @@ return [
     "position" => [
         'title_page' => 'title_page',
         'logo_page' => 'logo_page',
+        'text_logo_page' => 'text_logo_page',
         'footer_page' => 'footer_page',
         'content_one' => 'content_one',
         'content_two' => 'content_two',

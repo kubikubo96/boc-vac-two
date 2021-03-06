@@ -15,12 +15,7 @@
                         <div class="row" style="margin: 0">
                             <div class="col-md-5 c3" style="padding: 0px;margin-left: 0;">
                                 <p class="c5" style="">
-                                    "Bốc Xếp Hà Nội cam kết trách nhiệm với khách hàng khi sử dụng dịch vụ bốc xếp, chuyển
-                                    nhà…<br/>
-                                    Trong khi bốc xếp, bốc vác vận chuyển nếu xảy ra mất mát, hư hỏng, bể vỡ đồ đạc của
-                                    Quý khách sẽ được Uy Tín bồi thường thiệt hại 100% giá trị đồ đạc tính theo
-                                    giá thị trường tại thời điểm bàn giao. (ngoại trừ những trường hợp hư hỏng do đồ
-                                    dùng quá cũ)."
+                                    {{@$post['hot_news']->short_content}}
                                 </p>
                             </div>
                             <div class="col-md-7 c4" style="padding: 0px">
