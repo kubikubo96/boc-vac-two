@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <base href="{{asset('')}}"/>
-    <title>Tất Thanh</title>
+    <title>Admin</title>
 
     <!-- Custom fonts for this template-->
     <link href="admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
