@@ -36,7 +36,7 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-191596159-1');
-</script>
+    </script>
 </head>
 <body>
 
