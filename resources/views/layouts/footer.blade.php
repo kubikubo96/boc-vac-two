@@ -17,10 +17,7 @@
         <div class="row">
             <div class="col-12">
                 {{@$footer_page->title}}
-                <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4519606&101" alt=""
-                                                           border="0"></a></noscript>
-            </div>
-             <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+                <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
             <!-- Histats.com  START  (aync)-->
             <script type="text/javascript">var _Hasync= _Hasync|| [];
             _Hasync.push(['Histats.start', '1,4524307,4,7,200,30,00010000']);
@@ -33,6 +30,7 @@
             })();</script>
             <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4524307&101" alt="" border="0"></a></noscript>
             <!-- Histats.com  END  -->
+            </div>
         </div>
     </div>
 </div>
